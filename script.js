@@ -10,7 +10,7 @@ dog_site.init = function() {
 }
 
 dog_site.mousedown = function() {
-  dog_site.dog.src = "fordameat/dog_2.png";
+  dog_site.dog.src = "dog_2.png";
   dog_site.pets++;
   if (dog_site.pets < 10) {
     dog_site.dog.className += " clicked";
@@ -19,7 +19,7 @@ dog_site.mousedown = function() {
 }
 
 dog_site.mouseup = function() {
-  dog_site.dog.src = "fordameat/dog_2.png";
+  dog_site.dog.src = "dog_2.png";
   dog_site.dog.className -= " clicked";
   dog_site.pet_count.className -= " clicked";
 }
